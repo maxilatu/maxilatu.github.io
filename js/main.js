@@ -5,119 +5,119 @@ const productos = [
     {
         id: "legumbre",
         titulo: "Garbanzos Ricos",
-        imagen: "./.img/legumbre01.jpeg",
+        imagen: "./img/legumbre01.jpeg",
         categoria: { nombre: "Legumbres", id: "legumbre" },
         precio: 700
     },
     {
         id: "legumbre",
         titulo: "Garbanzos Ricos",
-        imagen: "./.img/legumbre01.jpeg",
+        imagen: "./img/legumbre01.jpeg",
         categoria: { nombre: "Legumbres", id: "legumbre" },
         precio: 700
     },
     {
         id: "legumbre",
         titulo: "Garbanzos Ricos",
-        imagen: "./.img/legumbre01.jpeg",
+        imagen: "./img/legumbre01.jpeg",
         categoria: { nombre: "Legumbres", id: "legumbre" },
         precio: 700
     },
     {
         id: "legumbre",
         titulo: "Garbanzos Ricos",
-        imagen: "./.img/legumbre01.jpeg",
+        imagen: "./img/legumbre01.jpeg",
         categoria: { nombre: "Legumbres", id: "legumbre" },
         precio: 700
     },
     {
         id: "legumbre",
         titulo: "Garbanzos Ricos",
-        imagen: "./.img/legumbre01.jpeg",
+        imagen: "./img/legumbre01.jpeg",
         categoria: { nombre: "Legumbres", id: "legumbre" },
         precio: 700
     },
     {
         id: "barritas",
         titulo: "Barrita Proteica",
-        imagen: "./.img/barrita01.png",
+        imagen: "./img/barrita01.png",
         categoria: { nombre: "Barritas", id: "barritas" },
         precio: 800
     },
     {
         id: "barritas",
         titulo: "Barrita Proteica",
-        imagen: "./.img/barrita01.png",
+        imagen: "./img/barrita01.png",
         categoria: { nombre: "Barritas", id: "barritas" },
         precio: 800
     },
     {
         id: "barritas",
         titulo: "Barrita Proteica",
-        imagen: "./.img/barrita01.png",
+        imagen: "./img/barrita01.png",
         categoria: { nombre: "Barritas", id: "barritas" },
         precio: 800
     },
     {
         id: "alfajores",
         titulo: "Alfajor sin tac",
-        imagen: "./.img/alfajor01.jpg",
+        imagen: "./img/alfajor01.jpg",
         categoria: { nombre: "alfajor", id: "alfajores" },
         precio: 1400
     },
     {
         id: "barritas",
         titulo: "Barrita Proteica",
-        imagen: "./.img/barrita01.png",
+        imagen: "./img/barrita01.png",
         categoria: { nombre: "Barritas", id: "barritas" },
         precio: 800
     },
     {
         id: "galletitavegana",
         titulo: "Galletas Veganas",
-        imagen: "./.img/galletitavegana01.jpeg",
+        imagen: "./img/galletitavegana01.jpeg",
         categoria: { nombre: "Galletitas Veganas", id: "galletitavegana" },
         precio: 1200
     },
     {
         id: "galletitavegana",
         titulo: "Galletas Veganas",
-        imagen: "./.img/galletitavegana01.jpeg",
+        imagen: "./img/galletitavegana01.jpeg",
         categoria: { nombre: "Galletitas Veganas", id: "galletitavegana" },
         precio: 1200
     },
     {
         id: "galletitavegana",
         titulo: "Galletas Veganas",
-        imagen: "./.img/galletitavegana01.jpeg",
+        imagen: "./img/galletitavegana01.jpeg",
         categoria: { nombre: "Galletitas Veganas", id: "galletitavegana" },
         precio: 1200
     },
     {
         id: "galletitavegana",
         titulo: "Galletas Veganas",
-        imagen: "./.img/galletitavegana01.jpeg",
+        imagen: "./img/galletitavegana01.jpeg",
         categoria: { nombre: "Galletitas Veganas", id: "galletitavegana" },
         precio: 1200
     },
     {
         id: "galletitavegana",
         titulo: "Galletas Veganas",
-        imagen: "./.img/galletitavegana01.jpeg",
+        imagen: "./img/galletitavegana01.jpeg",
         categoria: { nombre: "Galletitas Veganas", id: "galletitavegana" },
         precio: 1200
     },
     {
         id: "pansingluten",
         titulo: "Pan de salvado",
-        imagen: "./.img/pansalva01.jpeg",
+        imagen: "./img/pansalva01.jpeg",
         categoria: { nombre: "Panes Sin Gluten", id: "pansingluten" },
         precio: 2000
     },
     {
         id: "pansingluten",
         titulo: "Pan de salvado",
-        imagen: "./.img/pansalva01.jpeg",
+        imagen: "./img/pansalva01.jpeg",
         categoria: { nombre: "Panes Sin Gluten", id: "pansingluten" },
         precio: 2000
     }, 
@@ -305,4 +305,5 @@ toggles.forEach(toggle => {
 });
 
 actualizarNumerito();
+
 
