@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almacén de Manjares</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- ASIDE -->
+<aside class="sidebar">
+  <header>
+    <!-- Logo -->
+    <img src="./.img/icono-almacen.jpg" alt="Almacén de Manjares" class="icono-manjares">
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a class="boton-menu boton-bolver" href="./index.html">
+          <i class="bi bi-arrow-return-left"></i> Volver  al inicio
+        </a>
+
+      </li>
+      
+      <li>
+        <a class="boton-menu boton-bolver" href="./tienda.html">
+          <i class="bi bi-arrow-return-left"></i> Seguir comprando
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</aside>
+
+    <!-- MAIN -->
+    <main class="contenido">
+      <h2 class="titulo-principal">Carrito</h2>
+      <div class="contenedor-carrito">
+
+        <!-- Mensaje vacío -->
+        <p class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+
+        <!-- Producto 1 -->
+        <div class="carrito-producto">
+          <img class="carrito-producto-imagen" src="./.img/alfajor01.jpg" alt="">
+          <div class="carrito-producto-titulo">
+            <small>Producto</small>
+            <h3>Alfajor 01</h3>
+          </div>
+          <div class="carrito-producto-cantidad">
+            <small>Cantidad</small>
+            <p>1</p>
+          </div>
+          <div class="carrito-producto-precio">
+            <small>Precio</small>
+            <p>$1000</p>
+          </div>
+          <div class="carrito-producto-subtotal">
+            <small>Subtotal</small>
+            <p>$1000</p>
+          </div>
+          <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="carrito-producto">
+          <img class="carrito-producto-imagen" src="./.img/alfajor02.jpg" alt="">
+          <div class="carrito-producto-titulo">
+            <small>Producto</small>
+            <h3>Alfajor 02</h3>
+          </div>
+          <div class="carrito-producto-cantidad">
+            <small>Cantidad</small>
+            <p>2</p>
+          </div>
+          <div class="carrito-producto-precio">
+            <small>Precio</small>
+            <p>$1000</p>
+          </div>
+          <div class="carrito-producto-subtotal">
+            <small>Subtotal</small>
+            <p>$2000</p>
+          </div>
+          <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+        </div>
+
+        <!-- Acciones -->
+        <div class="carrito-acciones">
+          <div class="carrito-acciones-izquierda">
+            <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+          </div>
+          <div class="carrito-acciones-derecha">
+            <div class="carrito-acciones-total">
+              <p>Total:</p>
+              <p id="total">$3000</p>
+            </div>
+            <button class="carrito-acciones-comprar">Comprar ahora</button>
+          </div>
+        </div>
+        <!-- Resumen -->
+        <div class="carrito-resumen">
+           <div>
+            <p id="cantidad-total">Cantidad total: 0</p>
+            <p id="precio-total">Precio total: $0</p>
+        </div>
+  <button>Comprar</button>
+</div>
+
+
+      </div>
+    </main>
+  </div>
+      </main>
+  </div>
+
+  <!-- Footer fuera del aside -->
+  <footer class="footer">
+    <div class="footer-contenido">
+      <a href="https://www.instagram.com/almacendemanjares?igsh=MW93ZDJmZGtlaTZ2cg==" target="_blank"><i class="bi bi-instagram"></i> Almacendemanjares</a>
+      <a href="https://www.facebook.com/profile.php?id=100068738276326" target="_blank"><i class="bi bi-facebook"></i> Almacendemanjares</a>
+      <a href="mailto:adrianametholt@gmail.com"><i class="bi bi-envelope-fill"></i> adrianametholt@gmail.com</a>
+
+    </div>
+    <div class="footer-contenido">
+        <a href="https://www.instagram.com/maxi_latu?igsh=MWc4eno2ZTFqcmJrdQ==">
+            <p>© 2025 MAXI CODER</p>
+        </a>
+    </div>
+  </footer>
+  <script src="./js/carrito.js"></script>
+</body>
+</html>
+
